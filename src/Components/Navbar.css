@@ -1,0 +1,36 @@
+
+.btn1{
+   
+    border: 2px solid rgb(49, 14, 175)  ;
+    color: rgb(49, 14, 175);
+    font-weight: bold;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+}
+.cnctus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    width: 226px;
+    height: 95px;
+}
+ .flgbtn{
+
+     position: relative;
+     right: 50px;
+     top: 20px;
+     border: none;
+     
+}
+
+@media only screen and (max-width: 900px){
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    } 
+}

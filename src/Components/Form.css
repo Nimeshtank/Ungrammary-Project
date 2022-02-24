@@ -1,0 +1,136 @@
+ .container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+ 
+ }
+ 
+ .container2{
+     display: flex;
+     flex-direction: column;
+     width: auto;
+     position: relative;
+ }
+ .abc{
+     height:470px;
+ }
+ p{
+     font-weight:700;
+     font-size: 1.5rem;
+ }
+ 
+ .textOnInput {
+    position: relative;
+    /* justify-content: left; */
+    margin: 11px;
+}
+.textOnInput label {
+    position: absolute;
+    top: -12px;
+    left: 23px;
+    padding: 2px;
+    z-index: 1;
+}
+.para{
+    transform: translate(-20px);
+}
+.textOnInput label:after {
+    content: " ";
+    background-color: #fff;
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.form-control {
+    box-shadow: none !important;
+    max-width: 100%;
+    font-size: 0.8rem;
+    background-color: white;
+
+}
+
+.textAr{
+    width: 96%;
+    line-height: 30px;
+    padding: 1rem;
+    border-radius: 5px;
+    border-color: darkgray;
+    opacity: .5;
+    transform: translate(-5px);
+    
+}
+
+.submit{
+    background-color:rgb(74, 7, 182);
+    max-width: max-content;
+    margin-left: 1em;
+    color: #fff;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    border: none;
+}
+
+.formimg{
+    width: 400px;
+    height: 400px;
+    
+    position: relative;
+    transform: translate(30px, 30px);
+}
+
+.pathimg{
+    width: 400px;
+    transform: translate(30px, -97%);
+    position: relative;
+    z-index: -2;
+}
+.gridimg{
+    width: 200px;
+    height: 124px;
+    transform: translate(302px, -496%);
+    position: relative;
+    z-index: -1;
+}
+.upText{
+    font-size: .7rem;
+}
+.errorMsg{
+    font-size: 10px;
+    color: red;
+    font-weight: 100;
+    margin: 0;
+    text-align: end;
+}
+
+.invalid{
+    border: none;
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 900px) {
+     .row{
+
+         text-align: center;
+         width: 80%;
+     }
+    
+     .container{
+         text-align: center;
+     }
+     .para{
+         width: max-content;
+     }
+     .gridimg {
+     
+        transform: translate(222px, -496%);
+      
+    }
+  }
