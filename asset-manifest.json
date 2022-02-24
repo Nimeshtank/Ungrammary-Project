@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ungrammary-project/static/css/main.f3f1987d.css",
+    "main.js": "/ungrammary-project/static/js/main.7ca468cd.js",
+    "static/js/787.69fc68f5.chunk.js": "/ungrammary-project/static/js/787.69fc68f5.chunk.js",
+    "static/media/formImage.png": "/ungrammary-project/static/media/formImage.a3539e49e3177525b24e.png",
+    "static/media/Repeat Grid 82.svg": "/ungrammary-project/static/media/Repeat Grid 82.f5f1d3a42906619d3ed2de76632816a9.svg",
+    "static/media/Artboardpng.png": "/ungrammary-project/static/media/Artboardpng.41333492f177ca87ed2c.png",
+    "index.html": "/ungrammary-project/index.html",
+    "static/media/Path 19588.svg": "/ungrammary-project/static/media/Path 19588.90149434ca97f876cead5947af64b51d.svg",
+    "main.f3f1987d.css.map": "/ungrammary-project/static/css/main.f3f1987d.css.map",
+    "main.7ca468cd.js.map": "/ungrammary-project/static/js/main.7ca468cd.js.map",
+    "787.69fc68f5.chunk.js.map": "/ungrammary-project/static/js/787.69fc68f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f1987d.css",
+    "static/js/main.7ca468cd.js"
+  ]
+}
